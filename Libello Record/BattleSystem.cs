@@ -93,6 +93,7 @@ public class BattleSystem : MonoBehaviour
 
     private void Start()
     {
+        //캐릭터의 테이블 데이터에 따라서 데이터 링크
         for (int i = 0; i < character_Friendly.Length; i++) 
         {
             character_Friendly[i].TableLink();

@@ -184,7 +184,7 @@ public class CharacterBase : MonoBehaviour
         DecreaseAndZeroIfExpired(ref character_HazelBuff.character_BuffTurn, ref character_HazelBuff.character_BuffValue);
         DecreaseAndZeroIfExpired(ref character_Weakly.character_BuffTurn, ref character_Weakly.character_BuffValue);
         DecreaseAndZeroIfExpired(ref character_Blindness.character_BuffTurn, ref character_Blindness.character_BuffValue);
-        DecreaseAndZeroIfExpired(ref character_Wakness.character_BuffTurn, ref character_Wakness.character_BuffValue); // (Weakness 오타면 나중에 교정!)
+        DecreaseAndZeroIfExpired(ref character_Wakness.character_BuffTurn, ref character_Wakness.character_BuffValue);
         DecreaseAndZeroIfExpired(ref character_ElmaDeBuff.character_BuffTurn, ref character_ElmaDeBuff.character_BuffValue);
     }
     #region 최종 계산식
